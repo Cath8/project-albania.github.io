@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>[Must Go & See] Next Stop | Albania - Land of the Eagles</title>
+<style type="text/css">
+
+/*This section is for the navigation bar in CSS. Starts here for copy/paste*/
+
+ul{
+	float: left;
+	width: 100%;
+	padding:1px;
+	margin:0.5px;
+	list-style-type:none;
+}
+
+li>a{
+	float: left;
+	width: 205px;
+	padding: 0.2px 0.12px;
+	text-decoration: none;
+	color: black;
+	background-color: red;
+	border-right: 2px solid white;
+
+}
+
+a:hover{
+	background-color: black;
+	color: white;
+	font-family: Century Gothic;
+
+}
+
+li{
+	font-family: Calibri;
+	font-size: 120%;
+	display: inline;
+}
+
+img{
+	max-width: 99%;
+	height: auto;
+	width: auto\9;
+}
+/*This is the end of this format.*/
+
+
+/*Below is only for the entire body of the page AKA background!*/
+
+body{
+	background-image: url("images/paper4.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+/*This section is CSS for HOME.*/
+
+p{
+	font-family: calibri;
+	padding-left: 20px;
+	text-align: initial;
+	float: initial;
+	font-size: 16px;
+	width: 750px;
+
+
+}
+
+.see{
+	margin-top: 30px;
+	padding-left: 20px;
+}
+
+h1{
+	width: 400px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin-top: 40px;
+}
+
+h2{
+	text-decoration:underline;
+}
+
+.clear{
+	font-family: calibri;
+	padding-left: 20px;
+	text-align: initial;
+	float: initial;
+	font-size: 16px;
+	width: 300;
+	float: inherit;
+	margin: 10px;
+}
+
+
+</style>
+</head>
+<body>
+
+	<!-- Bootstrap -->
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!--Start of the page here!-->
+<div id="page">
+
+	<!--Nagivation bar; you can copy/paste-->
+	<div id="header">
+
+		<!--Navigation Banner Img. Made using Pixlr.-->
+		<center><img src="images/1national_banner.jpg" width="10000" height="10000"></center>
+
+			<ul>
+				<li><a href="1home.html">Home</a></li>
+				<li><a href="2history.html">History</a></li>
+				<li><a href="3must_go_&_see.html">Must Go & See</a></li>
+				<li><a href="4food_&_culture.html">Food & Culture</a></li>
+				<li><a href="5gallery.html">Gallery</a></li>
+				<li><a href="6contact_us.html">Contact Us</a></li>
+			</ul>
+	</div>
+	<!--This is the end for the nav bar here!!-->
+
+	<!--Content box - Start.-->
+	<div id="content">
+
+		<h1 style="font-family:century gothic" font-size"20">Must Go & See!</h1>
+
+		<!--Img theme-->
+		<div class="see">
+			<img src="images/go&see_theme.jpg" width="550" height="550">
+		</div>
+
+			<p>What we're here for. The beaches, populated monuments, streets, sunsets, and ancient castles that stood tallso long ago. Let's check out Albania'a most popular cities!</p>
+
+
+		<!--City #1-->
+		<div class="clear">
+
+			<h2>Tirana</h2>
+
+				<p>
+					<img src="images/tirana_skanderbeg_square.jpg" width="200" height="200">
+				In Tirana, there are dozens of places to bounce around everywhere. A stroll around the Skanderbeg Square near the National Museum, or see a great view on top of the Pyramid perhaps? Why not have a look at the coffee shops while your at it too? Tirana is a lively city that is welcome to anyone day-in and out.
+				</p>
+		</div>
+
+		<!--City #2-->
+		<div class="clear">
+			<h2>Durres</h2>
+
+				<p>
+					<img src="images/durres_city6.jpg" width="200" height="200">
+				You may get the feeling that you're in some kind of time machine as you tour the city of Durres. Acient castles tell you their secrets of what their present was like hundreds of years ago. Let's not forgot get about the Durres Amphitheatre, as one of the largest amphitheatres in the Balkan peninsula.
+				</p>
+		</div>
+
+		<!--City #3-->
+		<div class="clear">
+			<h2>Berat</h2>
+
+				<p>
+					<img src="images/berat_castle.jpg" width="200" height="200">
+				The entrance pup the hill is the citadel of Berat, with is a 13th-century Byzantine church of the Holy Trinity. It is yet another famous structure to admire its story. The town is still renowned for its historic architecture and scenic beauty and is known as the <i>"Town of a Thousand Windows"</i>, due to the many large windows of the old decorated houses overlooking the town.
+				</p>
+		</div>
+
+		<!--City #4-->
+		<div class="clear">
+			<h2>Vlore</h2>
+
+				<p>
+					<img src="images/vlore_beach1.png" width="200" height="200">
+				What every tourist should absolutely, and positively know that Vlore id the sight where Albania became an independent coutry in November of 1912. Take a look at their beaches nearby! Vlore is part of the other reason to come and see how calming it is to see the wave clash closely.
+				</p>
+		</div>
+
+		<!--City #5-->
+		<div class="clear">
+			<h2>Saranda</h2>
+
+				<p>	
+					<img src="images/blue_eye.jpg" width="200" height="200">
+				Before you leave Albania, you must find out on how to visit the <i>"Blue Eye"</i>. It is a magificent pool with crystal clear blue water gazing up at the skies. No one knows for sure why it give such a radiant color, but one thing's for sure, it can captivate you.
+				</p>
+		</div>
+
+	</div>
+	<!--Content box - End.-->
+
+	</center>
+	<hr/>
+	<footer>
+		<p align="left">&copy Copyright 2014</p>
+	</footer>
+
+<!--End of the page here!-->
+</div>
+</body>
+</html>
