@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>[Contact Us] Next Stop | Albania - Land of the Eagles</title>
+<style type="text/css">
+
+/*This section is for the navigation bar in CSS. Starts here for copy/paste*/
+
+ul{
+	float: left;
+	width: 100%;
+	padding:1px;
+	margin:0.5px;
+	list-style-type:none;
+}
+
+li>a{
+	float: left;
+	width: 205px;
+	padding: 0.2px 0.12px;
+	text-decoration: none;
+	color: black;
+	background-color: red;
+	border-right: 2px solid white;
+
+}
+
+a:hover{
+	background-color: black;
+	color: white;
+	font-family: Century Gothic;
+
+}
+
+li{
+	font-family: Calibri;
+	font-size: 120%;
+	display: inline;
+}
+
+img{
+	max-width: 99%;
+	height: auto;
+	width: auto\9;
+}
+/*This is the end of this format.*/
+
+
+/*Below is only for the entire body of the page AKA background!*/
+
+body{
+	background-image: url("images/paper4.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+
+/*This section below is CSS for HOME.*/
+
+p{
+	font-family: calibri;
+	padding-left: 20px;
+}
+
+h1{
+	width: 400px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin-top: 40px;
+	font-size: 28px;
+}
+
+h2{
+	
+}
+
+h3{
+	font-family: Century Gothic;
+}
+
+fieldset{
+	width: 30px;
+	border:2px solid black;
+	padding: 20px;
+	vertical-align: right;
+}
+
+legend{
+	background-color: #efefef;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	padding: 10px 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.img1{
+	margin-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.img2{
+	padding-bottom: 60px;
+}
+
+.img3{
+	float: right;
+	margin-top: 50px;
+	padding-left: 20px;
+	padding-right: 70px;
+}
+
+.button{
+	padding-left: 20px;
+}
+
+.clock{
+	padding-top: 10px;
+	float: right;
+	padding-right: 330px;
+	padding-top: 157px;
+}
+
+.comment{
+	padding-top: 220px;
+	padding-left: 20px;
+}
+
+</style>
+</head>
+<body>
+
+	<!-- Bootstrap -->
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+		
+<!--Start of the page here!-->
+<div id="page">
+
+	<!--Nagivation bar; you can copy/paste-->
+	<div id="header">
+
+		<!--Navigation Banner Img. Made using Pixlr.-->
+		<center><img src="images/1national_banner.jpg" width="10000" height="10000"></center>
+
+			<ul>
+				<li><a href="1home.html">Home</a></li>
+				<li><a href="2history.html">History</a></li>
+				<li><a href="3must_go_&_see.html">Must Go & See</a></li>
+				<li><a href="4food_&_culture.html">Food & Culture</a></li>
+				<li><a href="5gallery.html">Gallery</a></li>
+				<li><a href="6contact_us.html">Contact Us</a></li>
+			</ul>
+	
+	</div>
+	<!--This is the end for the nav bar here!!-->
+
+	<!--Content box - Start.-->
+	<div id="content">
+
+		<h1 style="font-family:century gothic">Contact Us</h1>
+
+			<!--Clock code from timeanddate.com-->
+			<div class="clock">
+				<iframe src="http://free.timeanddate.com/clock/i474a89l/n284/fn6/fs22/fcfff/tc000/pct/ahl/bls0/brs0/bts2/bbs2/pl3/tt0/tw1/tm1/tb4" frameborder="0" width="209" height="58" allowTransparency="true"></iframe>
+			</div>
+			
+				<!--Image 1 (theme)-->
+				<div class="img1"><img src="images/contact_theme.jpg" align="left" width="650" height="650"></div>
+			
+				<!--Image 3-->
+				<div class="img3">
+					<img src="images/vlore_beach5.png" align="relative" width="650" height="650">
+				</div>
+
+
+					<!--Comment box layout.-->
+					<div class="comment">
+						
+						<h2 style="font-family:century gothic">Want to shout out about Albania? Say it here!<h2>
+
+							<!--Comment Start-->
+							<fieldset>
+								<legend>
+									<!--Contacts Image-->
+									<div class="img2">
+										<img src="images/contacts.png" align="left">
+									</div>
+								</legend>
+
+						<h3>Comments</h3>
+							<form action="http://www.example.com/login.php">
+								<textarea name="comments" cols="30" rows="10"></textarea>
+							
+						<!--Button Image-->
+						<div class="button">	
+							<form action="http://www.example.com/subscribe.php">
+								<input type="image" src="images/arrow.png">
+							</form>
+						</div>
+							</fieldset>
+							<!--Comment End-->
+
+					</div>
+				
+	</div>
+	<!--Content box - End.-->
+
+	<hr/>
+	<footer>
+		<center><p align="left">&copy Copyright 2014</p></center>
+	</footer>
+
+<!--End of the page here!-->
+</div>	
+</body>
+</html>
