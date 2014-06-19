@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>[History] Next Stop | Albania - Land of the Eagles</title>
+<style type="text/css">
+
+/*This section is for the navigation bar in CSS. Starts here for copy/paste*/
+
+ul{
+	float: left;
+	width: 100%;
+	padding:1px;
+	margin:0.5px;
+	list-style-type:none;
+}
+
+li>a{
+	float: left;
+	width: 205px;
+	padding: 0.2px 0.12px;
+	text-decoration: none;
+	color: black;
+	background-color: red;
+	border-right: 2px solid white;
+
+}
+
+a:hover{
+	background-color: black;
+	color: white;
+	font-family: Century Gothic;
+
+}
+
+li{
+	font-family: Calibri;
+	font-size: 120%;
+	display: inline;
+}
+
+img{
+	max-width: 99%;
+	height: auto;
+	width: auto\9;
+}
+/*This is the end of this format.*/
+
+
+/*Below is only for the entire body of the page AKA background!*/
+
+body{
+	background-image: url("images/paper4.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+/*This section is CSS for HOME.*/
+
+p{
+	font-family: calibri;
+	padding-left: 20px;
+}
+
+h1{
+	width: 400px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin-top: 40px;
+}
+
+h2{
+	font-family: calibri;
+	padding-left: 20px;
+	text-decoration:underline;
+}
+
+.history{
+	margin-top: 10px;
+	padding-left: 20px;
+}
+
+.roots{
+	border-bottom: 2px solid black;
+}
+
+.free{
+	padding-left: 50px;
+	float: inherit;
+}
+
+.today{
+	padding-left: 50px;
+	float: inherit;
+}
+
+.otto2{
+	padding-left: 50px;
+	float: inherit;
+}
+
+.otto{
+	padding-left: 50px;
+	float: inherit;
+}
+
+.first{
+	padding-left: 50px;
+	float: inherit;
+}
+
+.doodle{
+	padding-left: 50px;
+	padding-bottom: 20px;
+	float: inherit;
+}
+
+
+</style>
+</head>
+<body>
+
+	<!-- Bootstrap -->
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!--Start of the page here!-->
+<div id="page">
+
+	<!--Nagivation bar; you can copy/paste-->
+	<div id="header">
+
+		<!--Navigation Banner Img. Made using Pixlr.-->
+		<center><img src="images/1national_banner.jpg" width="10000" height="10000"></center>
+
+			<ul>
+				<li><a href="1home.html">Home</a></li>
+				<li><a href="2history.html">History</a></li>
+				<li><a href="3must_go_&_see.html">Must Go & See</a></li>
+				<li><a href="4food_&_culture.html">Food & Culture</a></li>
+				<li><a href="5gallery.html">Gallery</a></li>
+				<li><a href="6contact_us.html">Contact Us</a></li>
+			</ul>
+	</div>
+	<!--This is the end for the nav bar here!!-->
+
+	<!--Content box - Start.-->
+	<div id="content">
+
+		<h1 style="font-family:century gothic" font-size"20">History</h1>
+
+		<!--Img theme-->
+		<div class="history">
+			<img src="images/albania_history7.jpg" width="500" height="500">
+		</div>
+
+		<p>But wait! We've got to see these cities!</p>
+
+		<!--Illyrian history-->
+		<div class="roots">
+			<h2>Illyrians? That Far Back?</h2>
+			<p>Yes, it is that far into the past. The Illyrians were a group of tribes who inhabited the Western Balkans during classical antiquity. The Illyrian tribes that resided in the region of modern Albania were the Taulantii in central Albania the Parthini, the Abri and the Caviii in the north, the Enchelei in the east, the Bylliones in the south and several others. In the westernmost parts of the territory of Albania along with the Illyrian tribes lived the Bryges, a Phrygian people, and in the south lived the Greek tribe of the Chaonians.</p>
+				<div class="first"><img src="images/albania_history8.jpg" width="300" height="300"></div>
+			
+		</div>
+
+		<!--Ottoman Wars-->
+		<div class="roots">
+			<h2>Skanderbeg VS. The Ottomans</h2>
+				<div class="otto2"><img src="images/albania_history4.jpg" width="200" height="200"><img src="images/albania_history3.jpg" width="300" height="300"></div>
+			<p>By the 15th century, the Ottomans mostly ruled over most of the Balkan Peninsula. Their advance in Albania interrupted in the 15th century, when George Kastrioti Skanderbeg, the Albanian national hero who had served as an Ottoman military officer, renounced Ottoman service, allied with some Albanian chiefs forming the League of Lezhe and fought off successfully Turkish rule from 1443–1468 upon his death. Three major attacks - Siege of Kruje in 1450, Second Siege of Kruje in 1466-67, Third Siege of Kruje in 1467 suffered Albania during this period from major armies led by the great Ottoman sultans themselves, Murad II and Mehmed II The Conqueror. Albania was almost fully re-occupied by the Ottomans in 1479 after capturing Shkoder from Venice. Albania's conquest by Ottomans was completed after Durres's capture from Venice in 1501.</p>
+			
+			
+		</div>
+
+		<!--Freedom-->
+		<div class="roots">
+			<h2>1912 - Independence</h2>
+				<div class="free"><img src="images/albania_history.jpg" width="300" height="300"></div>
+			<p>Sparks were flying in the first Balkan War in 1912 that were ignited by the Albanian uprising between 1908 and 1910, which had the aim of opposing the Young Turk policies of consolidation of the Ottoman Empire. Following the eventual weakening of the Ottoman Empire in the Balkans, Serbia, Greece and Bulgaria declared war. The territory of what is now Albania was invaded by Serbia in the north and Greece in the south, restricting the country to only a patch of land around the southern coastal city of Vlora. Then the uprisings of 1910–1912, and the Montenegrin, Serbian, and Greek invasion of Albania, led to the proclamation of independence by Ismail Qemali in Vlora, on 28 November 1912. The independence was recognized by the Conference of London on 29 July 1913.</p>
+		</div>
+
+		<!--Present day Albania-->
+		<div class="last">
+			<h2>What's Up Today?</h2>
+			<div class="today"><img src="images/albania_Bujar_Nishani.jpg" width="300" height="300"></div>
+			<p>Many events in history shaped Albania such as World War II, but mostly during the time when communists govered the country. Until 1992, Albania has been seeking a closer relationship with the West. In 1992 the Democratic Party of Albania took control of the country through parliamentary elections, deposing the Communist Party of Albania, and Sali Berisha held the premiership of the country.</p>
+		
+			<p>Since 1992, Albania is becoming not only a tourist attraction, it's impoving economy, despite the politival situation, grew at an estimated 5% in 2007. Albania's current President in office is Bujar Nishani, a graduate in 1988 from the Military Academy <i>"Skanderbej"</i></p>
+
+			<p>Another major event in history occured in 2012. Albania celebrated their 100th anniversary, which they are acknowledged in a Google doodle.</p>
+			<div class="doodle"><img src="images/google_albania.jpg" width="400" height="400"></div>
+
+		</div>
+
+	</div>
+	<!--Content box - End.-->
+
+	</center>
+	<hr/>
+	<footer>
+		<center><p align="left">&copy Copyright 2014</p></center>
+	</footer>
+
+<!--End of the page here!-->
+</div>
+</body>
+</html>
