@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>[Food & Culture] Next Stop | Albania - Land of the Eagles</title>
+<style type="text/css">
+
+/*This section is for the navigation bar in CSS. Starts here for copy/paste*/
+
+ul{
+	float: left;
+	width: 100%;
+	padding:1px;
+	margin:0.5px;
+	list-style-type:none;
+}
+
+li>a{
+	float: left;
+	width: 205px;
+	padding: 0.2px 0.12px;
+	text-decoration: none;
+	color: black;
+	background-color: red;
+	border-right: 2px solid white;
+
+}
+
+a:hover{
+	background-color: black;
+	color: white;
+	font-family: Century Gothic;
+
+}
+
+li{
+	font-family: Calibri;
+	font-size: 120%;
+	display: inline;
+}
+
+img{
+	max-width: 99%;
+	height: auto;
+	width: auto\9;
+}
+/*This is the end of this format.*/
+
+
+/*Below is only for the entire body of the page AKA background!*/
+
+body{
+	background-image: url("images/paper4.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+/*This section is CSS for HOME.*/
+
+p{
+	font-family: calibri;
+	padding-left: 20px;
+	font-size: 16px;
+}
+
+h1{
+	width: 400px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin-top: 40px;
+}
+
+h2{
+	text-decoration:underline;
+}
+
+.coffee{
+	margin-top: 10px;
+	padding-left: 20px;
+}
+
+.food{
+
+	float: left;
+}
+
+.culture{
+	
+}
+
+.culture2{
+	float: inherit;
+	margin-left: 40px;
+}
+
+</style>
+</head>
+<body>
+
+	<!-- Bootstrap -->
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!--Start of the page here!-->
+<div id="page">
+
+	<!--Nagivation bar; you can copy/paste-->
+	<div id="header">
+
+		<!--Navigation Banner Img. Made using Pixlr.-->
+		<center><img src="images/1national_banner.jpg" width="10000" height="10000"></center>
+
+			<ul>
+				<li><a href="1home.html">Home</a></li>
+				<li><a href="2history.html">History</a></li>
+				<li><a href="3must_go_&_see.html">Must Go & See</a></li>
+				<li><a href="4food_&_culture.html">Food & Culture</a></li>
+				<li><a href="5gallery.html">Gallery</a></li>
+				<li><a href="6contact_us.html">Contact Us</a></li>
+			</ul>
+	</div>
+	<!--This is the end for the nav bar here!!-->
+
+	<!--Content box - Start.-->
+	<div id="content">
+
+		<h1 style="font-family:century gothic" font-size"20">Food & Culture</h1>
+
+		<!--Img theme-->
+		<div class="coffee">
+			<img src="images/food_coffee.jpg" width="550" height="550">
+		</div>
+
+
+		<!--A1) This section talks about 3 traditional Albanian dishes.-->
+		<div class="food">
+
+			<h2 style="font-family:century gothic">Albania's Fine Dishes</h2>
+
+			<p>Of course you can't forget about the food! Drop that protien drink and have a glass of boza, or other of these delicious dishes made only in Albania!</p>
+			<p>There are also details about thier culture. To understadn Albania'a culture brings us closer to appreciate its history.</p>
+
+					
+				<p>	<!--Boza-->
+					<img src="images/food_boza.jpg" width="50" height="50"> Blend in some maize, which is corn to be exact, wheat flour, sugar, and water. Mix them all up together, and vola! A tall glass of refreshing boza. This sweet and sour mix makes the perfect summer drink. It has a light taste to it. Albania's traditional brand, the Pacara Boza, is mostly produced and on the market in the northern area of Albana. It won't be hard to look. Just visit an ice-cream and candy store for a real treat in Tirana. You can't miss it!
+				</p>
+
+	
+				<p>	<!--Flija-->
+					<img src="images/food_flija.png" width="100" height="100" float="right">
+					Another traditional Albanian cusine specially prepared in mountainous areas of the country. If you're gonna ask, <i>"What's good to eat here?"</i> The answer is gonna be flija every time. You would like to think that it's a pie, but trust me it's really not. In fact, it's mostly layered like a stack of pancakes!Baked with cinders, the batter in the pie-pan is coated with a "sac" which is a metal dome to bake the dough. After it's backed, it is later coated with a layer of melted cream cheese, and baked individually under the sac. It's a slow recipie, yet the wait is worthwhile! If you happen to travel in March, mark your calendar for the 18th that's recognized as <i>"Flia Day"</i>. It is celebrated for Albania's families to invite relatives for this meal. The word <i>flia</i> is also <i>fli</i>, or <i>flija</i>.
+				</p>
+
+				<p>	<!--Tave Kosi-->
+					<img src="images/food_tavekosi.jpg" width="80" height="80" float="right">
+					Ah, the Tave Kosi. Now this is a fabulous family dish you can really sink your teeth into! It is the national dish served throughout Albania, and is escpecially popular for Easter. With good reason. A dish of lamb and rice baked into a yogurt-egg mixture, which solidified into a quiche-like texture. Yogurt is a strong flavor. To remedy this, crused garlic and oregano are added together! 
+				</p>
+				
+		</div>
+		<!--A1)-->
+
+		<!--B1) This section talks about Albanian culture.-->
+		<div class="culture">
+			<h2 style="font-family:century gothic">The Albanian Culture</h2>
+				
+				<!--3 Images: Albanian dress uniforms.-->
+				<div class="culture2">
+					<img src="images/culture1.jpg" width="230" height="230" float="inherit">
+					<img src="images/culture2.jpg" width="230" height="230" float="inherit">
+					<img src="images/culture3.jpg" width="230" height="230" float="inherit">
+				</div>
+
+					<p>
+					Albanian folk music are into three stylistic groups, while other important music areas near Shkoder and Tirana. Their top groups are the Ghegs in the north, and for the south are the Labs and Tosks. Both north and south are very contrasted. Like the "rugged and heroic tones" for the north, while super "relaxed" for the south. Their music styles describe the <i>"intensity"</i> both performers and listeners give to their music as sheer patriotic expression. Albania'a folk music themes go by different grops. Heroic epics, sweet melodic lullibies, love songs, and wedding music for instance are mostly played from the northern area. Lullabies and vajtims are extremely important for most kinds of Albanian folk songs. Many are basicallyperformed solo by women.
+					</p>
+
+					<p>
+					The dress of the Muslim Shkodran brides is characterized by its elegance and transparency, in that of the Catholic one can see full colors. The Catholic bride's dress is characterized by its picturesque effects and harmony. Their gallery of costumes, richness of colors, and lovely sentiments are a big experience. Not only for the ability to conserve alive the tradition, inheriting it generations after generations, but also for conserving the high technique of elaboration or the high artistic level.
+					</p>
+
+					<p>
+					Many ritual songs name various elements which contain <i>"paja"</i> of the girl, which are the goods parents give the daughter to wear, to furnish the house, and gifts for her husband. The preparation of the <i>"paja"</i> for the parents of the bride is a pleasure which means also accomplishing the obligations toward the daughter. This is an expression of the love of parents, and yet is connected with the economical conditions of the family.
+					</p>
+
+					<p>
+					<i>"Dhunti"</i> in Shkodra means the gifts that the groom prepares for the bride during the engagement, mainly clothes, jewelry, gold ornaments and tricks, which are sent to her a few days before the wedding. In addition to those received by the family of his father, the bride takes many gifts from the groom and his family. <i>"Dhuntia"</i>, which had a considerable monetary value, was prepared with great care by the family of the boy, because in some way embodied respect and love for his young bride, to whom these gifts were made, love for their son that he married at the same time was also a representation of the family. In <i>"dhunti"</i> there were enough clothes and items for use at all times, in joy and in sorrow, which expressed particular attention to the role of women.
+					</p>
+		</div>
+		<!--B1)-->
+
+	</div>
+	<!--Content box - End.-->
+
+	</center>
+	<hr/>
+	<footer>
+		<center><p align="left">&copy Copyright 2014</p></center>
+	</footer>
+
+<!--End of the page here!-->
+</div>
+</body>
+</html>
