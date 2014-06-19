@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>[Gallery] Next Stop | Albania - Land of the Eagles</title>
+<style type="text/css">
+
+/*This section is for the navigation bar in CSS. Starts here for copy/paste*/
+
+ul{
+	float: left;
+	width: 100%;
+	padding:1px;
+	margin:0.5px;
+	list-style-type:none;
+}
+
+li>a{
+	float: left;
+	width: 205px;
+	padding: 0.2px 0.12px;
+	text-decoration: none;
+	color: black;
+	background-color: red;
+	border-right: 2px solid white;
+
+}
+
+a:hover{
+	background-color: black;
+	color: white;
+	font-family: Century Gothic;
+
+}
+
+li{
+	font-family: Calibri;
+	font-size: 120%;
+	display: inline;
+}
+
+img{
+	max-width: 99%;
+	height: auto;
+	width: auto\9;
+}
+/*This is the end of this format.*/
+
+
+/*Below is only for the entire body of the page AKA background!*/
+
+body{
+	background-image: url("images/paper4.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+/*This section is CSS for HOME.*/
+
+p{
+	font-family: calibri;
+	padding-left: 20px;
+}
+
+h1{
+	width: 400px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin-top: 40px;
+	font-family: century Gothic;
+}
+
+h2{
+	font-family: calibri;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.gallery{
+	margin-top: 30px;
+	padding-left: 20px;
+}
+
+.tirana{
+	border-top: 2px solid black;
+	padding-top: 10px;
+}
+
+.durres{
+	border-top: 2px solid black;
+	padding-top: 10px;
+}
+
+.berat{
+	border-top: 2px solid black;
+	padding-top: 10px;
+}
+
+.vlora{
+	border-top: 2px solid black;
+	padding-top: 10px;
+}
+
+.saranda{
+	border-top: 2px solid black;
+	padding-top: 10px;
+}
+
+</style>
+</head>
+<body>
+
+	<!-- Bootstrap -->
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!--Start of the page here!-->
+<div id="page">
+
+	<!--Nagivation bar; you can copy/paste-->
+	<div id="header">
+
+		<!--Navigation Banner Img. Made using Pixlr.-->
+		<center><img src="images/1national_banner.jpg" width="10000" height="10000"></center>
+
+			<ul>
+				<li><a href="1home.html">Home</a></li>
+				<li><a href="2history.html">History</a></li>
+				<li><a href="3must_go_&_see.html">Must Go & See</a></li>
+				<li><a href="4food_&_culture.html">Food & Culture</a></li>
+				<li><a href="5gallery.html">Gallery</a></li>
+				<li><a href="6contact_us.html">Contact Us</a></li>
+			</ul>
+	</div>
+	<!--This is the end for the nav bar here!!-->
+
+	<!--Content box - Start.-->
+	<div id="content">
+
+		<!--Gallery Intro-->
+		<!--NOTE: All 5 city names contains 5 images in each row each. Total of 25 images below!-->
+		<h1>Gallery</h1>
+
+			<!--Img theme-->
+			<div class="gallery">
+			<img src="images/view_theme.jpg" width="830" height="830" float="left">
+			</div>
+
+			<p>Take a look at these photos! Aren't they amazing? </p>
+			<p>A timeless view of Albania's most popular cities!</p>
+
+		<!--NOTE: All 5 city names contains 5 images in each row each. Total of 25 images below!-->
+		<!--City 1-->
+		<h2>Tirana</h2>
+			<div class="tirana">
+				<img src="images/tirana_museum.jpg" width="230" height="230" float="left">
+				<img src="images/tirana_concrete_city.jpg" width="230" height="230" float="left">
+				<img src="images/tirana_town.jpg" width="230" height="230" float="left">
+				<img src="images/tirana_font.jpg" width="230" height="230" float="left">
+				<img src="images/tirana_night.jpg" width="230" height="230" float="left">
+			</div>
+
+		<!--City 2-->
+		<h2>Durres</h2>
+			<div class="durres">
+				<img src="images/durres_airport.jpg" width="230" height="230" float="left">
+				<img src="images/durres_city7.jpg" width="230" height="230" float="left">
+				<img src="images/durres_city9.jpg" width="230" height="230" float="left">
+				<img src="images/durres_city8.jpg" width="230" height="230" float="left">
+				<img src="images/durres_city5.jpg" width="230" height="230" float="left">
+			</div>
+
+		<!--City 3-->
+		<h2>Berat</h2>
+			<div class="berat">
+				<img src="images/berat_castle.jpg" width="230" height="230" float="left">
+				<img src="images/berat_castle4.jpg" width="230" height="230" float="left">
+				<img src="images/berat_castle5.jpg" width="230" height="230" float="left">
+				<img src="images/berat_city2.jpg" width="230" height="230" float="left">
+				<img src="images/berat_city3.jpg" width="230" height="230" float="left">
+			</div>
+
+		<!--City 4-->
+		<h2>Vlore</h2>
+			<div class="vlore">
+				<img src="images/vlore_beach3.png" width="230" height="230" float="left">
+				<img src="images/vlore_beach4.png" width="230" height="230" float="left">
+				<img src="images/vlore_beach.jpg" width="230" height="230" float="left">
+				<img src="images/vlore_beach6.png" width="230" height="230" float="left">
+				<img src="images/vlore_beach2.png" width="230" height="230" float="left">
+			</div>
+
+		<!--City 5-->
+		<h2>Saranda</h2>
+			<div class="saranda">
+				<img src="images/saranda_city9.jpg" width="230" height="230" float="left">
+				<img src="images/saranda_city1.jpg" width="230" height="230" float="left">
+				<img src="images/saranda_city2.jpg" width="230" height="230" float="left">
+				<img src="images/saranda_city5.jpg" width="230" height="230" float="left">
+				<img src="images/saranda_city6.jpg" width="230" height="230" float="left">
+			</div>
+
+	</div>
+	<!--Content box - End.-->
+
+	</center>
+	<hr/>
+	<footer>
+		<center><p align="left">&copy Copyright 2014</p></center>
+	</footer>
+
+<!--End of the page here!-->
+</div>
+</body>
+</html>
